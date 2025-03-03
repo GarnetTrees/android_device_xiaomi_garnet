@@ -37,6 +37,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Set res to remove warning
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Extra Flags
+TARGET_DISABLE_EPPE := true
+
 # UDFPS Flags
 TARGET_HAS_UDFPS := true
 
