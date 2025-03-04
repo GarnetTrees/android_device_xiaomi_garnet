@@ -280,9 +280,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     IFAAService
 
-# Inherit BCR
-$(call inherit-product, vendor/bcr/bcr.mk)
-
 # Init
 PRODUCT_PACKAGES += \
     charger_fw_fstab.qti \
